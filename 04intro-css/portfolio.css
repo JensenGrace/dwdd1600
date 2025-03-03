@@ -1,0 +1,204 @@
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+/* Header section styling */
+
+header {
+background-color: #f2d377;
+padding: 1rem 2vw;
+}
+
+header span {
+    margin: 0;
+    color: #4a548c;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #dab955eb;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #dab955be;
+
+}
+h1 {
+    margin-bottom: 10px; 
+  }
+  
+  p {
+    margin-top: 0; 
+    margin-bottom: 0;
+  }
+
+/* Nav section styling */
+nav {
+    background-color: #4d5d8c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 1vw;
+    margin: 0; 
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #8492e0;
+    font-weight: 700; 
+    display: block;
+    padding: .83rem 2rem;
+}
+
+
+nav a:hover {
+    color:#faf1ae;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+  }
+
+/* Main section styling */
+main {
+padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #4a548c;
+}
+main h2{
+    color: #4d5d8c;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #333333;
+    margin: 0;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #4d5d8c;
+    color: #4a548c;
+}
+
+main dl dt {
+    color: #4a548c;
+    font-weight: 700; 
+}
+ main dl dd {
+    color: #4d5d8c;
+    font-size: .9rem;
+    margin-left: 20px;
+ }
+
+ main ul {
+    list-style-type:square;
+ }
+ 
+ main ul li {
+    line-height: 225%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+ }
+
+ main address {
+    font-style: normal;
+    background-color: white;
+    padding: 0;
+ }
+
+ main a {
+    color: #033333
+ }
+
+ main a:hover {
+    color: #333333;
+ }
+
+
+/* Footer section styling */
+
+footer {
+    background-color: #eaeaea;
+    text-align:center;
+    color: #282828;
+    padding: 1rem 0;
+    font-size: .8rem;
+    
+}
